@@ -1,0 +1,11 @@
+/**
+ * @module styles/print
+ * @responsibility Impresión limpia de reportes: solo contenido, sin fondos.
+ */
+@media print {
+  .dash-side, .toast-region, .dash-hero-bg, .grain::before, .btn { display: none !important; }
+  .dash { grid-template-columns: 1fr; }
+  .dash-main { padding: 0; }
+  .glass, .kpi { box-shadow: none; border: 1px solid #ddd; animation: none; opacity: 1; transform: none; }
+  body { background: #fff; }
+}

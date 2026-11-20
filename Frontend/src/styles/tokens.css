@@ -1,0 +1,42 @@
+:root {
+  /* Paleta base */
+  --bg: #F4F1EA;
+  --sage: #7A9E7E;
+  --sage-soft: rgba(122, 158, 126, 0.14);
+  --deep: #2D4A3A;
+  --deep-2: #4E7057;
+  --warm-gray: #B8B2A7;
+
+  /* Acentos suaves por módulo */
+  --accent-blue: #6F95AE;
+  --accent-ochre: #C99A3F;
+  --accent-teal: #4F9A93;
+  --accent-lavender: #9288B8;
+  --accent-terra: #C48468;
+
+  /* Texto */
+  --ink: #22312a;
+  --ink-soft: #5b6a61;
+  --ink-faint: #8a938c;
+
+  /* Tipografías */
+  --font-title: 'Lora', Georgia, serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
+
+  /* Espacios y radios */
+  --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem;
+  --space-4: 1rem; --space-5: 1.5rem; --space-6: 2rem; --space-8: 3rem;
+  --radius-s: 10px; --radius-m: 16px; --radius-l: 24px;
+
+  /* Sombras suaves */
+  --shadow-1: 0 1px 2px rgba(45, 74, 58, 0.06), 0 4px 16px rgba(45, 74, 58, 0.06);
+  --shadow-2: 0 8px 30px rgba(45, 74, 58, 0.12);
+  --shadow-3: 0 20px 60px rgba(45, 74, 58, 0.18);
+
+  /* Velocidades */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 160ms var(--ease);
+  --t-med: 420ms var(--ease);
+
+  color-scheme: light;
+}
