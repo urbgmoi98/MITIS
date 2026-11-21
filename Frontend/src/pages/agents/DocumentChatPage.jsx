@@ -1,0 +1,1 @@
+/** @module src/pages/agents/DocumentChatPage @responsibility Chat con documentos y fuentes. @requirements RF-13 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function DocumentChatPage(){ return <PlaceholderPage title="Chat con documentos" />; }

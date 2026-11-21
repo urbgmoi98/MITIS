@@ -1,0 +1,1 @@
+/** @module src/pages/reports/ReportsPage @responsibility Listado y descarga de reportes. @requirements RF-17 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function ReportsPage(){ return <PlaceholderPage title="Reportes" requirement="PF" />; }

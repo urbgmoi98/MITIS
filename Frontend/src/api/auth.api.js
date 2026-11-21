@@ -11,5 +11,6 @@ export const authApi = {
   forgotPassword: (payload) => httpClient.post('/auth/forgot-password', payload),
   resetPassword: (payload) => httpClient.post('/auth/reset-password', payload),
   me: () => httpClient.get('/auth/me'),
-  logout: () => httpClient.post('/auth/logout')
+  // TODO(RF-02): el backend no expone POST /auth/logout; el cierre es local.
+  logout: async () => undefined
 };

@@ -1,0 +1,1 @@
+/** @module src/pages/agents/CsvMapperPage @responsibility Asistencia de mapeo CSV. @requirements RF-06, RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function CsvMapperPage(){ return <PlaceholderPage title="Mapeo de CSV" />; }

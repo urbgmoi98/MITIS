@@ -1,0 +1,1 @@
+/** @module src/pages/admin/DataRequestsPage @responsibility Solicitudes de baja y datos. @requirements RF-21 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function DataRequestsPage(){ return <PlaceholderPage title="Solicitudes de baja" />; }

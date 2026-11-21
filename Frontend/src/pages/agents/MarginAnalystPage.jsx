@@ -1,0 +1,1 @@
+/** @module src/pages/agents/MarginAnalystPage @responsibility Agente analista de márgenes. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function MarginAnalystPage(){ return <PlaceholderPage title="Analista de margen" />; }

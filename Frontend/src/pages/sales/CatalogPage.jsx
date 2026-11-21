@@ -1,0 +1,1 @@
+/** @module src/pages/sales/CatalogPage @responsibility Catálogo de productos y canales. @requirements RF-07 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function CatalogPage(){ return <PlaceholderPage title="Catálogo" />; }

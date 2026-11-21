@@ -4,19 +4,19 @@
  * @requirements RF-02, RF-04
  */
 import { Suspense } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { ROUTES } from './routeConfig.js';
-import PublicRoute from './PublicRoute.jsx';
 import ProtectedRoute from './ProtectedRoute.jsx';
 import RoleRoute from './RoleRoute.jsx';
 import AuthLayout from '../layouts/AuthLayout.jsx';
 import PublicLayout from '../layouts/PublicLayout.jsx';
+import LegalLayout from '../layouts/LegalLayout.jsx';
 import DashboardLayout from '../layouts/DashboardLayout.jsx';
 import SlothLoader from '../components/feedback/SlothLoader.jsx';
 import { COPY } from '../config/copy.es.js';
 
 const LAYOUTS = {
-  auth: AuthLayout, legal: PublicLayout, dashboard: DashboardLayout, default: PublicLayout
+  auth: AuthLayout, legal: LegalLayout, dashboard: DashboardLayout, default: PublicLayout
 };
 
 export default function AppRouter() {
@@ -36,10 +36,6 @@ export default function AppRouter() {
         if (r.public) {
           return <Route key={r.path} path={r.path} element={renderWithLayout(r)} />;
         }
-        const inner = r.roles
-          ? <Route element={<RoleRoute allow={r.roles} />}>{/* rol anidado abajo */}</Route>
-          : null;
-        // Ruta protegida simple
         return (
           <Route key={r.path} path={r.path} element={<ProtectedRoute />}>
             {r.roles
@@ -50,7 +46,6 @@ export default function AppRouter() {
           </Route>
         );
       })}
-      <Route path="/panel" element={<Navigate to="/panel" replace />} />
     </Routes>
   );
 }

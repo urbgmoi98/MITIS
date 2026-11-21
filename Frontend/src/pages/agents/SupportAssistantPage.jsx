@@ -1,0 +1,1 @@
+/** @module src/pages/agents/SupportAssistantPage @responsibility Asistente de soporte. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function SupportAssistantPage(){ return <PlaceholderPage title="Asistente de soporte" />; }

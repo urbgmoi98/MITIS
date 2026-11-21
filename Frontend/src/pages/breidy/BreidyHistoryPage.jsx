@@ -1,0 +1,1 @@
+/** @module src/pages/breidy/BreidyHistoryPage @responsibility Historial de consultas. @requirements RF-10, RF-11 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function BreidyHistoryPage(){ return <PlaceholderPage title="Historial de Breidy" />; }

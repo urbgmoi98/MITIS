@@ -1,0 +1,1 @@
+/** @module src/pages/account/PrivacyCenterPage @responsibility Centro de privacidad y consentimientos. @requirements RF-20 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function PrivacyCenterPage(){ return <PlaceholderPage title="Centro de privacidad" />; }

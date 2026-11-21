@@ -1,0 +1,1 @@
+/** @module src/pages/sales/UploadHistoryPage @responsibility Historial de cargas. @requirements RF-05 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function UploadHistoryPage(){ return <PlaceholderPage title="Historial de cargas" />; }

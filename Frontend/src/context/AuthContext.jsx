@@ -9,7 +9,7 @@ import { authApi } from '../api/auth.api.js';
 import { session } from '../utils/sessionStorage.js';
 import { setSessionExpiredHandler } from '../api/httpClient.js';
 
-const AuthContext = createContext(null);
+export const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => session.getUser());
@@ -19,6 +19,20 @@ export function AuthProvider({ children }) {
     setSessionExpiredHandler(() => setUser(null));
     const token = session.getToken();
     if (!token) { setBooting(false); return; }
+    try {
+      const payload = JSON.parse(atob(token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/')));
+      if (payload.exp && payload.exp * 1000 <= Date.now()) {
+        session.clear();
+        setUser(null);
+        setBooting(false);
+        return;
+      }
+    } catch {
+      session.clear();
+      setUser(null);
+      setBooting(false);
+      return;
+    }
     authApi.me()
       .then((res) => { setUser(res.data); session.setUser(res.data); })
       .catch(() => session.clear())

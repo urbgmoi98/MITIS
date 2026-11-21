@@ -1,0 +1,1 @@
+/** @module src/pages/account/DeleteAccountPage @responsibility Solicitud de baja de cuenta. @requirements RF-21 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function DeleteAccountPage(){ return <PlaceholderPage title="Baja de cuenta" />; }

@@ -1,0 +1,1 @@
+/** @module src/pages/sales/UploadCsvPage @responsibility Carga CSV por pasos. @requirements RF-05, RF-06 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function UploadCsvPage(){ return <PlaceholderPage title="Cargar archivo CSV" />; }

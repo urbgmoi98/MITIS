@@ -1,0 +1,1 @@
+/** @module src/pages/agents/AgentsHubPage @responsibility Hub filtrado por rol. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function AgentsHubPage(){ return <PlaceholderPage title="Agentes" />; }

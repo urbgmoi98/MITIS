@@ -1,0 +1,1 @@
+/** @module src/pages/auditor/IntegrationLogsPage @responsibility Bitácora de integraciones de solo lectura. @requirements RF-18 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function IntegrationLogsPage(){ return <PlaceholderPage title="Integraciones" />; }

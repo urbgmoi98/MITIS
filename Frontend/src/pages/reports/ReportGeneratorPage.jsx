@@ -1,0 +1,1 @@
+/** @module src/pages/reports/ReportGeneratorPage @responsibility Generación de reportes con evidencia. @requirements RF-17 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function ReportGeneratorPage(){ return <PlaceholderPage title="Generar reporte" requirement="PF" />; }

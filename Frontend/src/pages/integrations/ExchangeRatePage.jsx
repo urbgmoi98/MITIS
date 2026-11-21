@@ -1,0 +1,1 @@
+/** @module src/pages/integrations/ExchangeRatePage @responsibility Tipo de cambio BCCR. @requirements RF-14 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function ExchangeRatePage(){ return <PlaceholderPage title="Tipo de cambio" />; }

@@ -14,38 +14,9 @@ export const ROLE_HOME = Object.freeze({
   [ROLES.AUDITOR]: '/panel/auditor'
 });
 
-/** Menú lateral dinámico por rol (RF-04). */
-export const NAV_BY_ROLE = Object.freeze({
-  [ROLES.ADMIN]: [
-    { to: '/panel/admin', label: 'Panel', icon: 'home' },
-    { to: '/ventas/cargar', label: 'Cargar CSV', icon: 'upload' },
-    { to: '/catalogo', label: 'Catálogo', icon: 'box' },
-    { to: '/breidy', label: 'Breidy', icon: 'chat' },
-    { to: '/agentes', label: 'Agentes', icon: 'spark' },
-    { to: '/reportes', label: 'Reportes', icon: 'doc' },
-    { to: '/integraciones', label: 'Integraciones', icon: 'link' },
-    { to: '/admin/usuarios', label: 'Usuarios', icon: 'users' },
-    { to: '/admin/agentes', label: 'Agentes y accesos', icon: 'shield' },
-    { to: '/admin/automatizaciones', label: 'Automatizaciones', icon: 'flow' }
-  ],
-  [ROLES.CLIENT]: [
-    { to: '/panel/cliente', label: 'Panel', icon: 'home' },
-    { to: '/ventas/cargar', label: 'Cargar CSV', icon: 'upload' },
-    { to: '/breidy', label: 'Breidy', icon: 'chat' },
-    { to: '/reportes', label: 'Reportes', icon: 'doc' },
-    { to: '/integraciones', label: 'Integraciones', icon: 'link' }
-  ],
-  [ROLES.COLLABORATOR]: [
-    { to: '/panel/colaborador', label: 'Panel', icon: 'home' },
-    { to: '/ventas/cargar', label: 'Cargar CSV', icon: 'upload' },
-    { to: '/catalogo', label: 'Catálogo', icon: 'box' },
-    { to: '/breidy', label: 'Breidy', icon: 'chat' },
-    { to: '/agentes', label: 'Agentes', icon: 'spark' }
-  ],
-  [ROLES.AUDITOR]: [
-    { to: '/panel/auditor', label: 'Panel', icon: 'home' },
-    { to: '/auditoria/bitacoras', label: 'Bitácoras', icon: 'doc' },
-    { to: '/auditoria/ejecuciones', label: 'Ejecuciones de agentes', icon: 'flow' },
-    { to: '/auditoria/integraciones', label: 'Integraciones', icon: 'link' }
-  ]
+export const ROLE_LABELS = Object.freeze({
+  [ROLES.ADMIN]: 'Administrador',
+  [ROLES.COLLABORATOR]: 'Colaborador',
+  [ROLES.CLIENT]: 'Cliente',
+  [ROLES.AUDITOR]: 'Auditor'
 });

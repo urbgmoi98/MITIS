@@ -1,0 +1,1 @@
+/** @module src/pages/admin/AgentsAdminPage @responsibility Matriz agente×rol. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function AgentsAdminPage(){ return <PlaceholderPage title="Agentes y accesos" />; }

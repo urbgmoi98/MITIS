@@ -1,0 +1,1 @@
+/** @module src/pages/agents/CompliancePage @responsibility Asistente de cumplimiento con límites visibles. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function CompliancePage(){ return <PlaceholderPage title="Cumplimiento" />; }

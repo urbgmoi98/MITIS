@@ -1,0 +1,1 @@
+/** @module src/pages/admin/UsersPage @responsibility Administración de usuarios. @requirements RF-04 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function UsersPage(){ return <PlaceholderPage title="Usuarios" />; }

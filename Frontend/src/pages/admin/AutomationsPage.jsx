@@ -1,0 +1,1 @@
+/** @module src/pages/admin/AutomationsPage @responsibility Estado de automatizaciones n8n. @requirements RF-16 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function AutomationsPage(){ return <PlaceholderPage title="Automatizaciones" />; }

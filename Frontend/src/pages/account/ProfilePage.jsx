@@ -1,0 +1,1 @@
+/** @module src/pages/account/ProfilePage @responsibility Perfil editable del usuario. @requirements RF-20 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function ProfilePage(){ return <PlaceholderPage title="Mi perfil" />; }

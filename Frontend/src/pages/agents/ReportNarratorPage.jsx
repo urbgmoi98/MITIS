@@ -1,0 +1,1 @@
+/** @module src/pages/agents/ReportNarratorPage @responsibility Narrativa de reportes. @requirements RF-12, RF-17 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function ReportNarratorPage(){ return <PlaceholderPage title="Narrador de reportes" />; }

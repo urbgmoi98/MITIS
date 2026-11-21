@@ -1,0 +1,1 @@
+/** @module src/pages/auditor/AuditLogsPage @responsibility Bitácoras de auditoría de solo lectura. @requirements RF-18 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function AuditLogsPage(){ return <PlaceholderPage title="Bitácoras" />; }

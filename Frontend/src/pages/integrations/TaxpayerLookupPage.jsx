@@ -1,0 +1,1 @@
+/** @module src/pages/integrations/TaxpayerLookupPage @responsibility Consulta de contribuyentes. @requirements RF-15 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function TaxpayerLookupPage(){ return <PlaceholderPage title="Contribuyentes" />; }

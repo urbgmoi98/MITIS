@@ -1,0 +1,1 @@
+/** @module src/pages/agents/SerenePulsePage @responsibility Pulso operativo opcional. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function SerenePulsePage(){ return <PlaceholderPage title="Pulso sereno" requirement="PF" />; }

@@ -1,0 +1,1 @@
+/** @module src/pages/breidy/BreidyPage @responsibility Conversación y evidencia Breidy. @requirements RF-09, RF-10, RF-11 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function BreidyPage(){ return <PlaceholderPage title="Breidy" />; }

@@ -12,5 +12,6 @@ export const COPY = {
   sessionEnded: 'Tu sesión terminó por seguridad. Ingresa de nuevo.',
   welcomeBack: 'Qué bueno verte de nuevo.',
   aiSerene: 'Breidy está en modo sereno. Puedo responder con las consultas guardadas.',
-  confirmDelete: 'Esta acción es definitiva. Tómate tu tiempo para confirmarla.'
+  confirmDelete: 'Esta acción es definitiva. Tómate tu tiempo para confirmarla.',
+  demoBanner: 'Datos de muestra'
 };

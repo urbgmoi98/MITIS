@@ -1,0 +1,6 @@
+@media print {
+  .dash-side, .public-nav, .public-footer, .btn, .actions { display: none !important; }
+  body { background: #fff; }
+  .dash, .dash-main { display: block; width: 100%; }
+  .glass { break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
+}

@@ -1,0 +1,1 @@
+/** @module src/pages/agents/InvoiceReaderPage @responsibility Agente lector de facturas. @requirements RF-12 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function InvoiceReaderPage(){ return <PlaceholderPage title="Lector de facturas" />; }

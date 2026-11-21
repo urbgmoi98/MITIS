@@ -5,7 +5,6 @@
  * @requirements RF-08
  */
 const MONTHS = ['Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov'];
-const rand = (min, max) => Math.round(min + Math.random() * (max - min));
 
 export const demoMetrics = {
   summary: {

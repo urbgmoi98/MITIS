@@ -1,16 +1,28 @@
-# React + Vite
+# MITIS Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación React 18 + Vite del proyecto MITIS.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
 
-## React Compiler
+## Variables
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `VITE_API_URL`: base `/api/v1`; predeterminado `http://localhost:4000/api/v1`.
+- `VITE_ENABLE_DEMO`: datos de muestra explícitos; mantener `false`.
 
-## Expanding the ESLint configuration
+## Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run dev`: servidor en `http://localhost:5173`.
+- `npm run build`: compilación de producción.
+- `npm run lint`: revisión ESLint.
+- `npm test`: Vitest una sola vez.
+- `npm run test:watch`: Vitest interactivo.
+
+## Roles
+
+Administrador, colaborador, cliente y auditor. El RBAC visual oculta acciones, pero el backend siempre valida el acceso real.

@@ -1,0 +1,1 @@
+/** @module src/pages/auditor/AgentExecutionsPage @responsibility Ejecuciones de agentes de solo lectura. @requirements RF-18 */ import PlaceholderPage from '../PlaceholderPage.jsx'; export default function AgentExecutionsPage(){ return <PlaceholderPage title="Ejecuciones de agentes" />; }
